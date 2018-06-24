@@ -105,9 +105,9 @@
                                         <p>
                                                 Please <a href="contact.html">contact me</a> for more information or to schedule postpartum services.
                                         </p>
-                                                 <a href="images/doula1.jpg" data-rel="lightcase:cakesmashcollection"><img src="images/doula1.jpg" width="300" height="400"></a>
-                                                <a href="images/doula2.jpg" data-rel="lightcase:cakesmashcollection"><img src="images/doula2.jpg" width="300" height="400" ></a>
-                                                <a href="images/doula3.jpg" data-rel="lightcase:cakesmashcollection"><img src="images/doula3.jpg" width="300" height="400" ></a>
+                                                <a href="images/doula1.jpg" data-rel="lightcase:doulacollection"><img src="images/doula1.jpg" width="400" height="300"></a>
+                                                <a href="images/doula2.jpg" data-rel="lightcase:doulacollection"><img src="images/doula2.jpg" width="300" height="400" ></a>
+                                                <a href="images/doula3.jpg" data-rel="lightcase:doulacollection"><img src="images/doula3.jpg" width="400" height="300" ></a>
                                     <br>
 
 									
@@ -139,5 +139,16 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
+         <!-- Lightbox -->
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="assets/lightcase-2.5.0/src/css/lightcase.css">
+            <script type="text/javascript" src="assets/lightcase-2.5.0/src/js/lightcase.js"></script>
+            <script type="text/javascript">
+	           jQuery(document).ready(function($) {
+		          $('a[data-rel^=lightcase]').lightcase();
+	           });
+            </script>
+        <!-- End Lightbox -->
+        
 	</body>
 </html>
